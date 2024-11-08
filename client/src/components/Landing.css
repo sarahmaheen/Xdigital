@@ -1,0 +1,85 @@
+/* Landing.css or main CSS file */
+@font-face {
+    font-family: 'CustomFont'; /* Name your font */
+    src: url('../fonts/miguel.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font */
+body, .landing-container {
+    font-family: 'CustomFont', sans-serif;
+}
+
+
+
+/* Main container */
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    background-color: #121212; /* Background color as per the theme */
+  }
+  
+  /* Left section styling */
+  .left-section {
+    flex: 1;
+    padding: 20px;
+    color: #fff; /* White text color */
+  }
+  
+  .left-section h2 {
+    font-size: 5rem;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+  
+  .left-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
+  }
+  
+  .left-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff6b6b; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-section button:hover {
+    background-color: #ff4a4a; /* Button hover color */
+  }
+  
+  /* Right section styling */
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Circle styling */
+  .circle {
+    /* width: 200px;  */
+    /* height: 200px; */
+    /* border-radius: 50%;Circle background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
